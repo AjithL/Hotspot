@@ -1,0 +1,51 @@
+
+<!-- saved from url=(0283)https://463559528-atari-embeds.googleusercontent.com/embeds/16cb204cf3a9d4d223a0a3fd8b0eec5d/inner-frame-minified.html?jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en.76xGL2Yny_o.O%2Fam%3DwQE%2Fd%3D1%2Fct%3Dzgms%2Frs%3DAGLTcCPLubAJPE__-DfP0tDIR1-cduAt3Q%2Fm%3D__features__ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!--<base target="_blank">--><base href="." target="_blank">
+    
+    <title>W2D KaiOS Universal Jailbreak</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+.block {
+  width: 100%;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 18px;
+  padding: 10px 28px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.block:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+    <meta name="author" content="Luxferre,tbrrss,Fanofgk">
+    <meta name="description" content="W2D KaiOS Universal Jailbreak">
+    <meta name="keywords" content="jailbreak,mobile,research,hacking,js,kaios">
+  </head>
+  <body>
+	<main>
+      <section>
+        <button id="w2d" class="block">Launch Hotspot menu</button>
+      </section>
+    </main>
+    <script>
+      document.getElementById('w2d').addEventListener('click', function(e)      {
+        if(window.MozActivity) {
+          var act = new MozActivity({
+            name: "configure",
+            data: {
+              target: "device",
+              section: "hotspot"
+            }
+          })
+        }
+        else {
+          window.alert('Please open the page from the device itself!')
+        }
+      }, false)
+    </script>
+
+</body></html>
